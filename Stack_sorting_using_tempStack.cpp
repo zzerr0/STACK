@@ -7,7 +7,7 @@ int main()
   //el=element of stacks
   int n, el;
   //declaring two stacks original & temporary
-  stack<int> ostack, tstack;
+  stack<int> ostack /* original stack */, tstack /* temporary stack */;
   cout<<"\n Enter No. of elements of stack"<<endl;
   cin>>n;
   for(int i=0;i<n;i++)
